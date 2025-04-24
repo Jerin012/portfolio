@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ben</title>
+  <link rel="icon" type="image/x-icon" href="logo1.jpg">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <nav class="glass">
+    <div class="logo">JB</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="icons">
+      <a href="https://www.linkedin.com/in/jerinbenisha-j-1113b7278"><i class="ri-linkedin-box-line"></i></a>
+      <a href="https://github.com/Jerin012"><i class="ri-github-line"></i></a>
+      <a href="jerinbenisha.j29@gmail.com"><i class="ri-mail-line"></i></a>
+      <button id="langBtn"><i class="ri-translate-2"></i></button>
+      <a href="resume.pdf" class="btn-resume" download>Resume</a>
+    </div>
+
+    <button id="hamburger"><i class="ri-menu-line"></i></button>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero" id="about">
+    <div class="hero-text">
+      <p class="greeting">Hello There!</p>
+      <h1>I'm <span>Jerin Benisha Joseph</span></h1>
+      <p class="subtitle">A highly motivated and detail-oriented Computer Science and Engineering graduate with a strong foundation in software development, data analysis, and artificial intelligence.</p>
+
+      <div class="badges">
+        <span tabindex="0" style="will-change: transform;transform: none;">React</span>
+        <span>ReactJS</span><span>Power Bi</span><span>JavaScript</span>
+        <span>MySQL</span><span>HTML/CSS</span>
+      </div>
+
+     
+    </div>
+
+    <figure class="hero-img">
+      <img src="girl2.jpg" alt="Developer at desk">
+    </figure>
+  </header>
+
+  <header class="container" id="projects">
+    <main class="container">
+      <!-- projects.html -->
+      <h2 class="section-title">Projects</h2>
+      <section class="projects-grid">
+        <!-- repeat card -->
+        <article class="card">
+      
+          <h3>Pixel Tunes</h3>
+          <p>Created an interactive web-based image gallery combining visual elements with music and captions.</p>
+        
+        </article>
+        <!-- repeat card -->
+        <article class="card">
+      
+          <h3>Customer Purchase & Churn Prediction</h3>
+          <p>Developed ML models using Logistic Regression and Decision Trees.
+            Predicted customer purchase behavior and churn probability from historical data.
+            Delivered actionable insights for personalized marketing strategies.
+            </p>
+        
+        </article>
+
+        <article class="card">
+      
+          <h3>Figma Design Projects</h3>
+          <p>Restaurant app, Flower app, e-commerce app </p>
+        
+        </article>
+        
+      </section>
+    </main>
+
+
+  <header class="containe" id="contact">  
+     <main class="containe">
+     <!-- contact.html -->
+     <h2 class="section-title">Get in Touch</h2>
+     <form id="contactForm" class="contact-form">
+     <input type="text" placeholder="Your name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea rows="5" placeholder="Message" required></textarea>
+    <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+     <p id="formMsg" hidden>✔ Thank you! I’ll reply soon.</p>
+     </main>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
